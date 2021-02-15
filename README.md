@@ -4,7 +4,7 @@
 
 Submitted by: **Sam Gustafsson**
 
-Time spent: **2** hours spent in total
+Time spent: **3** hours spent in total
 
 # Flix
 
@@ -31,7 +31,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### App Walkthrough GIF
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://submissions.us-east-1.linodeobjects.com/ios_university/0E9X_Yrl.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.

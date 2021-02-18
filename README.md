@@ -1,6 +1,6 @@
 # Pre-work - *flixster*
 
-**Name of your app** is a movie information application for iOS.
+**flixster** is a movie information application for iOS.
 
 Submitted by: **Sam Gustafsson**
 

@@ -102,9 +102,23 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <wkWebView alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y7N-0O-XkB">
+                                <rect key="frame" x="67" y="470" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cUF-Rc-2Lv"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="fFN-Wb-Zhr" appends="YES" id="cAn-Oo-iRu"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="mSD-3d-AZ5"/>
                     <connections>
@@ -112,11 +126,17 @@
                         <outlet property="posterView" destination="U70-FK-agV" id="uC3-tL-Xox"/>
                         <outlet property="synopsisLabel" destination="w5E-6d-0sD" id="hZU-7x-MOo"/>
                         <outlet property="titleLabel" destination="jA2-M8-Tiq" id="7Vt-Zs-RvT"/>
+                        <outlet property="trailerView" destination="y7N-0O-XkB" id="WDt-4u-khI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5dK-7r-sNU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="fFN-Wb-Zhr">
+                    <connections>
+                        <action selector="tap:" destination="Juf-cC-abu" id="bPQ-h7-777"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="289" y="1695"/>
+            <point key="canvasLocation" x="176.80000000000001" y="1692.5037481259371"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="D1P-WP-AYq">
@@ -134,7 +154,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rE2-EF-oeH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="178" y="-719"/>
+            <point key="canvasLocation" x="177" y="-727"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="adU-vE-pck">
